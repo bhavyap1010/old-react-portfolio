@@ -10,7 +10,7 @@ function Header() {
         <a href="https://www.linkedin.com/in/bhavya-patel-codes/" target="_blank" rel="noopener noreferrer">
           LinkedIn ↗
         </a>
-        <a href="https://example.com/your-resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           Resume ↗
         </a>
       </div>
