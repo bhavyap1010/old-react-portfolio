@@ -1,0 +1,33 @@
+.projects {
+  margin: 60px auto; /* Increased margin for more whitespace above and below */
+  max-width: 800px;
+  padding: 40px; /* Padding inside the projects section */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for contrast */
+  color: white; /* Set text color to white */
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2em;
+  font-weight: 600; /* Semi-bold */
+  color: white; /* Set color to white */
+}
+
+.project {
+  margin-bottom: 40px; /* Space between projects */
+  padding: 20px; /* Added padding inside each project card */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: Light background for each project card */
+}
+
+.project-link {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Bold links */
+}
+
+.project-link:hover {
+  color: #b2caed; /* Change color on hover */
+}

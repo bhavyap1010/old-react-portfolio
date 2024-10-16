@@ -1,0 +1,41 @@
+.header {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 0; /* No padding needed, handled by body */
+  color: #ffffff; /* Set text color to white */
+  height: 100vh; /* Make header take up the full viewport height */
+}
+
+.links {
+  position: absolute;
+  top: 30px; /* Adjust as needed */
+  right: 30px; /* Adjust as needed */
+  text-align: right;
+}
+
+.links a {
+  color: #ffffff; /* Change link color to white */
+  text-decoration: none;
+  margin-left: 15px; /* Space between links */
+  font-weight: 600; /* Bold links */
+}
+
+.links a:hover {
+  color: #b2caed; /* Change color on hover */
+}
+
+h1 {
+  font-size: 3.5em;
+  margin: 5vh;
+  line-height: 1.2; /* Spacing between lines */
+  color: #ffffff; /* Set h1 text color to white */
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 10px;
+  font-weight: 300; /* Light font weight for subtitle */
+  color: #ffffff; /* Set h2 text color to white */
+}
