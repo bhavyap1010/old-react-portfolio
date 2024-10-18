@@ -2,7 +2,7 @@
 body {
   background: linear-gradient(180deg, rgba(1, 50, 67, 0.5), rgba(0, 0, 0, 0.8)), url('./images/underwater_image.jpg') no-repeat center center fixed;
   background-size: cover;
-  animation: underwater 30s linear infinite;
+  animation: underwater 60s ease-in-out infinite;
   color: #ffffff;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
@@ -11,6 +11,6 @@ body {
 }
 
 @keyframes underwater {
-  0% { background-position: 0 0; }
-  100% { background-position: 0 100%; }
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 0 100%; }
 }
