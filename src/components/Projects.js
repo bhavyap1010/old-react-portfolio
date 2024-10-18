@@ -7,6 +7,11 @@ function Projects() {
     <section id="projects" className="projects">
       <h3>Projects</h3>
       <Project 
+        title="Image Processor" 
+        description="This project showcases custom and OpenCV-based image processing techniques, applying filters like grayscale, blur, reflection, and edge detection to images. It highlights the differences between manual implementations using matplotlib and numpy versus the efficiency of OpenCV, providing insights into image manipulation with kernels."
+        link="https://github.com/bhavyap1010/Image-Processor" 
+      />
+      <Project 
         title="Clothing Classifier Comparison" 
         description="This project compares two popular deep learning frameworks, PyTorch and TensorFlow, by building a basic image classifier for the Fashion MNIST dataset. The focus is on illustrating their usage, syntax differences, and performance during training."
         link="https://github.com/bhavyap1010/Clothing-Class" 
